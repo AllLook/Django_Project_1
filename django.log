@@ -1,0 +1,17 @@
+
+Watching for file changes with StatReloader
+Страница index вызвана 00:00:00
+"GET / HTTP/1.1" 200 96
+Страница about вызвана 00:00:00
+"GET /about/ HTTP/1.1" 200 91
+C:\Users\Lex\Desktop\djangoProject_1\myapp_1\views.py changed, reloading.
+C:\Users\Lex\Desktop\djangoProject_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Страница index вызвана 2023-08-25 01:22:54.382375
+"GET / HTTP/1.1" 200 96
+Страница about вызвана 2023-08-25 01:23:01.560401
+"GET /about/ HTTP/1.1" 200 91
+C:\Users\Lex\Desktop\djangoProject_1\myapp_1\urls.py changed, reloading.
+Watching for file changes with StatReloader
