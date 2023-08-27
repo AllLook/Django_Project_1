@@ -15,3 +15,17 @@ Watching for file changes with StatReloader
 "GET /about/ HTTP/1.1" 200 91
 C:\Users\Lex\Desktop\djangoProject_1\myapp_1\urls.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Страница index вызвана 2023-08-27 18:59:48.611764
+"GET / HTTP/1.1" 200 96
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 50811)
+Страница about вызвана 2023-08-27 18:59:56.981318
+"GET /about/ HTTP/1.1" 200 91
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\manage.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Страница index вызвана 2023-08-27 19:47:35.909125
+"GET / HTTP/1.1" 200 96
