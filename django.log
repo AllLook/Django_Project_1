@@ -29,3 +29,281 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 Страница index вызвана 2023-08-27 19:47:35.909125
 "GET / HTTP/1.1" 200 96
+Not Found: /docs
+"GET /docs HTTP/1.1" 404 2426
+Watching for file changes with StatReloader
+Страница index вызвана 2023-08-30 22:54:39.145919
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 21, in index
+    return render(request, '/base.html')
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /base.html
+"GET / HTTP/1.1" 500 82166
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-08-30 22:58:14.937224
+"GET / HTTP/1.1" 200 8036
+Not Found: /style.css
+"GET /style.css HTTP/1.1" 404 2213
+Страница index вызвана 2023-08-30 22:59:20.873590
+"GET / HTTP/1.1" 200 8042
+"GET /static/style.css HTTP/1.1" 404 1786
+Страница index вызвана 2023-08-30 22:59:22.834610
+"GET / HTTP/1.1" 200 8042
+"GET /static/style.css HTTP/1.1" 404 1786
+Страница index вызвана 2023-08-30 22:59:23.497725
+"GET / HTTP/1.1" 200 8042
+"GET /static/style.css HTTP/1.1" 404 1786
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\models.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-08-30 23:02:02.066883
+"GET / HTTP/1.1" 200 8097
+Страница index вызвана 2023-08-30 23:02:04.734491
+"GET / HTTP/1.1" 200 8097
+Страница index вызвана 2023-08-30 23:02:05.397115
+"GET / HTTP/1.1" 200 8097
+Страница index вызвана 2023-08-30 23:02:05.933275
+"GET / HTTP/1.1" 200 8097
+Страница index вызвана 2023-08-30 23:10:56.197275
+"GET / HTTP/1.1" 200 8042
+"GET /static/style.css HTTP/1.1" 404 1786
+Страница index вызвана 2023-08-30 23:10:58.462000
+"GET / HTTP/1.1" 200 8042
+"GET /static/style.css HTTP/1.1" 404 1786
+Страница index вызвана 2023-08-30 23:10:59.172981
+"GET / HTTP/1.1" 200 8042
+"GET /static/style.css HTTP/1.1" 404 1786
+Страница index вызвана 2023-08-30 23:10:59.519680
+"GET / HTTP/1.1" 200 8042
+"GET /static/style.css HTTP/1.1" 404 1786
+Страница index вызвана 2023-08-30 23:10:59.756482
+"GET / HTTP/1.1" 200 8042
+"GET /static/style.css HTTP/1.1" 404 1786
+Страница index вызвана 2023-08-30 23:10:59.961572
+"GET / HTTP/1.1" 200 8042
+"GET /static/style.css HTTP/1.1" 404 1786
+Watching for file changes with StatReloader
+Страница index вызвана 2023-08-30 23:11:21.884388
+"GET / HTTP/1.1" 200 8042
+"GET /static/style.css HTTP/1.1" 404 1786
+Страница index вызвана 2023-08-30 23:11:56.115800
+"GET / HTTP/1.1" 200 8036
+Not Found: /style.css
+"GET /style.css HTTP/1.1" 404 2213
+Страница index вызвана 2023-08-30 23:11:56.820419
+"GET / HTTP/1.1" 200 8036
+Not Found: /style.css
+"GET /style.css HTTP/1.1" 404 2213
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-08-30 23:18:32.798011
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:35.379147
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:36.039840
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:36.325502
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:36.545723
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:36.766435
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:37.019376
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:37.492519
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:37.728879
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:37.933969
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:38.161027
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:38.398808
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:38.603893
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:38.825118
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:39.061458
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:39.518989
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:39.739705
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:39.944806
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:40.323717
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:40.812482
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:41.018570
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:41.223652
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+Страница index вызвана 2023-08-30 23:18:41.428251
+"GET / HTTP/1.1" 200 8070
+Not Found: /css/style.css
+"GET /css/style.css HTTP/1.1" 404 2225
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-08-30 23:27:41.865571
+"GET / HTTP/1.1" 200 8052
+"GET /static/static/style.css HTTP/1.1" 404 1807
+Страница index вызвана 2023-08-30 23:27:44.002257
+"GET / HTTP/1.1" 200 8052
+"GET /static/static/style.css HTTP/1.1" 404 1807
+Страница index вызвана 2023-08-30 23:27:44.602382
+"GET / HTTP/1.1" 200 8052
+"GET /static/static/style.css HTTP/1.1" 404 1807
+Страница index вызвана 2023-08-30 23:27:44.870952
+"GET / HTTP/1.1" 200 8052
+"GET /static/static/style.css HTTP/1.1" 404 1807
+Страница index вызвана 2023-08-30 23:27:45.066510
+"GET / HTTP/1.1" 200 8052
+"GET /static/static/style.css HTTP/1.1" 404 1807
+Страница index вызвана 2023-08-30 23:27:45.271846
+"GET / HTTP/1.1" 200 8052
+"GET /static/static/style.css HTTP/1.1" 404 1807
+Страница index вызвана 2023-08-30 23:27:45.476941
+"GET / HTTP/1.1" 200 8052
+"GET /static/static/style.css HTTP/1.1" 404 1807
+Страница index вызвана 2023-08-30 23:27:45.645373
+"GET / HTTP/1.1" 200 8052
+"GET /static/static/style.css HTTP/1.1" 404 1807
+Страница index вызвана 2023-08-30 23:32:46.459698
+"GET / HTTP/1.1" 200 8053
+"GET /static/static/style.css HTTP/1.1" 404 1807
+Страница index вызвана 2023-08-30 23:32:47.156989
+"GET / HTTP/1.1" 200 8053
+"GET /static/static/style.css HTTP/1.1" 404 1807
+Watching for file changes with StatReloader
+Страница index вызвана 2023-08-30 23:32:59.783396
+"GET / HTTP/1.1" 200 8053
+"GET /static/static/style.css HTTP/1.1" 404 1807
+Not Found: /user_form/
+"GET /user_form/ HTTP/1.1" 404 2216
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-08-30 23:35:40.218928
+"GET / HTTP/1.1" 200 8069
+"GET /Django_Project_1/static/static/style.css HTTP/1.1" 404 1841
+Страница index вызвана 2023-08-30 23:35:42.766881
+"GET / HTTP/1.1" 200 8069
+"GET /Django_Project_1/static/static/style.css HTTP/1.1" 404 1841
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-08-30 23:44:26.842556
+"GET / HTTP/1.1" 200 8090
+"GET /static/Django_Project_1/static/style.css HTTP/1.1" 404 1858
+Страница index вызвана 2023-08-30 23:44:29.125014
+"GET / HTTP/1.1" 200 8090
+"GET /static/Django_Project_1/static/style.css HTTP/1.1" 404 1858
+Not Found: /outerwear/
+"GET /outerwear/ HTTP/1.1" 404 2216
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-08-31 02:38:43.247505
+"GET / HTTP/1.1" 200 8086
+"GET /static/Django_Project_1/static/style.css HTTP/1.1" 404 1858
+Страница index вызвана 2023-08-31 02:39:12.873753
+"GET / HTTP/1.1" 200 8086
+"GET /static/Django_Project_1/static/style.css HTTP/1.1" 404 1858
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-01 05:07:02.432719
+"GET / HTTP/1.1" 200 8086
+"GET /static/Django_Project_1/static/style.css HTTP/1.1" 404 1858
+Watching for file changes with StatReloader
