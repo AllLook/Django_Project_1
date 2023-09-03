@@ -307,3 +307,1374 @@ Watching for file changes with StatReloader
 "GET / HTTP/1.1" 200 8086
 "GET /static/Django_Project_1/static/style.css HTTP/1.1" 404 1858
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-02 12:45:12.407907
+"GET / HTTP/1.1" 200 8086
+"GET /static/Django_Project_1/static/style.css HTTP/1.1" 404 1858
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2219
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-02 13:45:22.167165
+"GET / HTTP/1.1" 200 8086
+"GET /static/Django_Project_1/static/style.css HTTP/1.1" 404 1858
+Not Found: /order_date
+"GET /order_date HTTP/1.1" 404 2216
+Not Found: /about
+"GET /about HTTP/1.1" 404 2201
+Not Found: /about
+"GET /about HTTP/1.1" 404 2201
+Not Found: /about
+"GET /about HTTP/1.1" 404 2201
+Not Found: /about
+"GET /about HTTP/1.1" 404 2201
+Not Found: /about
+"GET /about HTTP/1.1" 404 2201
+Not Found: /about
+"GET /about HTTP/1.1" 404 2201
+Not Found: /about
+"GET /about HTTP/1.1" 404 2201
+Not Found: /order_date
+"GET /order_date HTTP/1.1" 404 2216
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /order_date
+"GET /order_date HTTP/1.1" 404 2324
+Not Found: /order_date
+"GET /order_date HTTP/1.1" 404 2324
+"GET /myapp_1/order_date HTTP/1.1" 301 0
+Internal Server Error: /myapp_1/order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 34, in client_order_date
+    orders_total_count = Order.count()
+AttributeError: type object 'Order' has no attribute 'count'
+"GET /myapp_1/order_date/ HTTP/1.1" 500 73016
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp_1/order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 35, in client_order_date
+    orders_week = Order.filter(date_added_order=today.week)
+AttributeError: type object 'Order' has no attribute 'filter'
+"GET /myapp_1/order_date/ HTTP/1.1" 500 72908
+Internal Server Error: /myapp_1/order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 35, in client_order_date
+    orders_week = Order.filter(date_added_order=today.week)
+AttributeError: type object 'Order' has no attribute 'filter'
+"GET /myapp_1/order_date/ HTTP/1.1" 500 72908
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp_1/order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    return  render(request, 'templates/myapp_1/all_orders_client.html', {'orders':orders, 'orders_total_count': orders_total_count, 'orders_week' : orders_week, 'order_month': order_month})
+NameError: name 'orders' is not defined
+"GET /myapp_1/order_date/ HTTP/1.1" 500 68641
+Internal Server Error: /myapp_1/order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    return  render(request, 'templates/myapp_1/all_orders_client.html', {'orders':orders, 'orders_total_count': orders_total_count, 'orders_week' : orders_week, 'order_month': order_month})
+NameError: name 'orders' is not defined
+"GET /myapp_1/order_date/ HTTP/1.1" 500 68641
+Internal Server Error: /myapp_1/order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    return  render(request, 'templates/myapp_1/all_orders_client.html', {'orders':orders, 'orders_total_count': orders_total_count, 'orders_week' : orders_week, 'order_month': order_month})
+NameError: name 'orders' is not defined
+"GET /myapp_1/order_date/ HTTP/1.1" 500 68641
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myapp_1/order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    return  render(request, 'templates/myapp_1/all_orders_client.html')
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/myapp_1/all_orders_client.html
+"GET /myapp_1/order_date/ HTTP/1.1" 500 83688
+Internal Server Error: /myapp_1/order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    return  render(request, 'templates/myapp_1/all_orders_client.html')
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: templates/myapp_1/all_orders_client.html
+"GET /myapp_1/order_date/ HTTP/1.1" 500 83688
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-02 14:13:21.708210
+"GET / HTTP/1.1" 200 7992
+Страница index вызвана 2023-09-02 14:13:37.535112
+"GET /myapp_1/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-02 14:16:46.873725
+"GET / HTTP/1.1" 200 7992
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 53914)
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+Страница index вызвана 2023-09-02 14:16:53.443353
+"GET /myapp_1/ HTTP/1.1" 200 7992
+"GET /myapp_1/order_date/ HTTP/1.1" 200 7992
+Not Found: /outerwear/
+"GET /outerwear/ HTTP/1.1" 404 2324
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-02 23:15:44.211586
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 24, in index
+    return render(request, 'base.html')
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET / HTTP/1.1" 500 83812
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2176
+Not Found: /
+"GET / HTTP/1.1" 404 2176
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2176
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-02 23:20:51.366662
+"GET / HTTP/1.1" 200 7992
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-02 23:34:39.570361
+"GET / HTTP/1.1" 200 8057
+"GET /static/myapp_1/style.css HTTP/1.1" 200 557
+"GET /order_date HTTP/1.1" 301 0
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    return render(request, 'myapp_1/all_orders_client.html')
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /order_date/ HTTP/1.1" 500 131045
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-02 23:50:52.664902
+"GET / HTTP/1.1" 200 8057
+"GET /order_date/ HTTP/1.1" 200 8057
+"GET /order_date/ HTTP/1.1" 200 8057
+"GET /order_date/ HTTP/1.1" 200 8057
+"GET /order_date/ HTTP/1.1" 200 8057
+"GET /order_date/ HTTP/1.1" 200 7933
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /order_date/ HTTP/1.1" 200 11629
+"GET /order_date/ HTTP/1.1" 200 11622
+"GET /order_date/ HTTP/1.1" 200 11654
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 34, in client_order_date
+    orders_total_count = Order.count()
+AttributeError: type object 'Order' has no attribute 'count'
+"GET /order_date/ HTTP/1.1" 500 72861
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /order_date/ HTTP/1.1" 200 11866
+"GET /order_date/ HTTP/1.1" 200 11706
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /order_date/ HTTP/1.1" 200 11722
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-03 00:23:20.162386
+"GET / HTTP/1.1" 200 8057
+"GET /order_date/ HTTP/1.1" 200 11722
+"GET /order_date/ HTTP/1.1" 200 11722
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    order_month = Order.filter(date_added_order=today.month)
+AttributeError: type object 'Order' has no attribute 'filter'
+"GET /order_date/ HTTP/1.1" 500 72848
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    order_month = Order.objects.get(date_added_order=today.month)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+"GET /order_date/ HTTP/1.1" 500 162395
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    order_month = Order.objects.get(date_added_order=today.month)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+"GET /order_date/ HTTP/1.1" 500 162395
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    order_month = Order.objects.get(date_added_order=today.month)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+"GET /order_date/ HTTP/1.1" 500 162395
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    order_month = Order.objects.get(date_added_order=today.month)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+"GET /order_date/ HTTP/1.1" 500 162400
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\models.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-03 01:07:02.758110
+"GET / HTTP/1.1" 200 8057
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    order_month = Order.objects.get(date_added_order=today.month)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+"GET /order_date/ HTTP/1.1" 500 140891
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    order_month = Order.objects.get(date_added_order=today.month)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+"GET /order_date/ HTTP/1.1" 500 140891
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    order_month = Order.objects.get(date_added_order=today.month)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+"GET /order_date/ HTTP/1.1" 500 140891
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    order_month = Order.objects.get(date_added_order=today.month)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+"GET /order_date/ HTTP/1.1" 500 140891
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-03 01:09:36.737799
+"GET / HTTP/1.1" 200 8057
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    order_month = Order.objects.get(date_added_order=today.month)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+"GET /order_date/ HTTP/1.1" 500 140891
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-03 01:16:20.677398
+"GET / HTTP/1.1" 200 8057
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    order_month = Order.objects.get(date_added_order=today.month)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+"GET /order_date/ HTTP/1.1" 500 140891
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\models.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-03 01:17:48.581807
+"GET / HTTP/1.1" 200 8057
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    order_month = Order.objects.get(date_added_order=today.month)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+"GET /order_date/ HTTP/1.1" 500 140891
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\models.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-03 01:18:45.364710
+"GET / HTTP/1.1" 200 8057
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    order_month = Order.objects.get(date_added_order=today.month)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+"GET /order_date/ HTTP/1.1" 500 162395
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\models.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-03 01:19:31.160044
+"GET / HTTP/1.1" 200 8057
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    order_month = Order.objects.get(date_added_order=today.month)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+"GET /order_date/ HTTP/1.1" 500 162395
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-03 01:21:45.013947
+"GET / HTTP/1.1" 200 8057
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 37, in client_order_date
+    order_month = Order.objects.get(date_added_order=in_30_days)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+TypeError: fromisoformat: argument must be str
+"GET /order_date/ HTTP/1.1" 500 163305
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-03 01:43:20.547411
+"GET / HTTP/1.1" 200 8057
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 44, in client_order_date
+    if item in temp_orders:
+TypeError: argument of type 'datetime.datetime' is not iterable
+"GET /order_date/ HTTP/1.1" 500 74125
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 45, in client_order_date
+    if item in temp_orders:
+TypeError: argument of type 'datetime.datetime' is not iterable
+"GET /order_date/ HTTP/1.1" 500 74147
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 43, in client_order_date
+    orders30 = Order.objects.get(date_added_order__in=temp_orders)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 426, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 270, in get_prep_lookup
+    for rhs_value in self.rhs:
+TypeError: 'datetime.datetime' object is not iterable
+"GET /order_date/ HTTP/1.1" 500 148753
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 43, in client_order_date
+    orders30 = Order.objects.get(date_added_order__in=temp_orders)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 426, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 270, in get_prep_lookup
+    for rhs_value in self.rhs:
+TypeError: 'datetime.datetime' object is not iterable
+"GET /order_date/ HTTP/1.1" 500 148759
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 43, in client_order_date
+    orders30 = Order.objects.filter(date_added_order__in=temp_orders)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 426, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 270, in get_prep_lookup
+    for rhs_value in self.rhs:
+TypeError: 'datetime.datetime' object is not iterable
+"GET /order_date/ HTTP/1.1" 500 140892
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 43, in client_order_date
+    orders30 = Order.objects.filter(date_added_order__in=temp_orders)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 426, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\lookups.py", line 270, in get_prep_lookup
+    for rhs_value in self.rhs:
+TypeError: 'datetime.datetime' object is not iterable
+"GET /order_date/ HTTP/1.1" 500 140907
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /order_date/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 43, in client_order_date
+    orders30 = Order.objects.filter(date_added_order__=temp_orders)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1312, in build_lookup
+    lhs = self.try_transform(lhs, lookup_name)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\query.py", line 1356, in try_transform
+    raise FieldError(
+django.core.exceptions.FieldError: Unsupported lookup '' for DateTimeField or join on the field not permitted.
+"GET /order_date/ HTTP/1.1" 500 133319
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /order_date/ HTTP/1.1" 200 11773
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /order_date/ HTTP/1.1" 200 15455
+"GET /order_date/ HTTP/1.1" 200 15455
+"GET /order_date/ HTTP/1.1" 200 15455
+"GET /order_date/ HTTP/1.1" 200 15455
+"GET /order_date/ HTTP/1.1" 200 15499
+"GET /order_date/ HTTP/1.1" 200 15435
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /order_date/ HTTP/1.1" 200 19207
+Not Found: /myapp_1/order_date/
+"GET /myapp_1/order_date/ HTTP/1.1" 404 2648
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /order_date/ HTTP/1.1" 200 22984
+"GET /order_date/ HTTP/1.1" 200 22985
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-03 03:09:51.591057
+"GET / HTTP/1.1" 200 8057
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-03 03:13:34.517146
+"GET / HTTP/1.1" 200 8057
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-03 03:20:22.385386
+"GET / HTTP/1.1" 200 8057
+"GET /order_date/ HTTP/1.1" 200 22919
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-03 03:27:26.104988
+"GET / HTTP/1.1" 200 8057
+"GET /order_date/ HTTP/1.1" 200 22919
+Страница index вызвана 2023-09-03 03:28:29.390183
+"GET / HTTP/1.1" 200 8057
+Страница index вызвана 2023-09-03 03:29:13.141880
+"GET / HTTP/1.1" 200 8057
+Страница index вызвана 2023-09-03 03:29:13.896797
+"GET / HTTP/1.1" 200 8057
+Страница index вызвана 2023-09-03 03:29:14.331381
+"GET / HTTP/1.1" 200 8057
+Страница index вызвана 2023-09-03 03:29:14.590179
+"GET / HTTP/1.1" 200 8057
+Страница index вызвана 2023-09-03 03:29:14.795272
+"GET / HTTP/1.1" 200 8057
+Страница index вызвана 2023-09-03 03:29:15.173209
+"GET / HTTP/1.1" 200 8057
+Страница index вызвана 2023-09-03 03:29:15.415895
+"GET / HTTP/1.1" 200 8057
+Страница index вызвана 2023-09-03 03:29:15.662002
+"GET / HTTP/1.1" 200 8057
+Страница index вызвана 2023-09-03 03:29:15.909567
+"GET / HTTP/1.1" 200 8057
+Страница index вызвана 2023-09-03 03:29:16.153226
+"GET / HTTP/1.1" 200 8057
+Страница index вызвана 2023-09-03 03:29:16.396890
+"GET / HTTP/1.1" 200 8057
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22919
+"GET /order_date/ HTTP/1.1" 200 22932
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-03 03:45:52.043043
+"GET / HTTP/1.1" 200 8070
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+Watching for file changes with StatReloader
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+"GET /order_date/ HTTP/1.1" 200 22932
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-03 03:57:35.205082
+"GET / HTTP/1.1" 200 2059
+"GET /order_date/ HTTP/1.1" 200 16921
+Страница index вызвана 2023-09-03 03:58:48.078479
+"GET / HTTP/1.1" 200 2059
