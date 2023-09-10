@@ -1,6 +1,26 @@
-{% extends 'base.html' %}
+{% extends 'myapp_1/base.html' %}
 
-{ % block content %}
+{% block content %}
+    <h3>Все заказы</h3>
+    {% for item in orders %}
+        <p>{{ item }}</p>
+    {% endfor %}
+
+    <h3>Заказы за неделю</h3>
+    {% for item in orders7 %}
+        <p>{{ item }}</p>
+    {% endfor %}
+
+    <h3>Заказы за месяц</h3>
+    {% for item in orders30 %}
+        <p>{{ item }}</p>
+    {% endfor %}
+
+    <h3>Заказы за год</h3>
+    {% for item in orders366 %}
+        <p>{{ item }}</p>
+    {% endfor %}
 
 
-{ % endblock % }
+
+{% endblock %}
