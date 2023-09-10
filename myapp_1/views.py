@@ -1,3 +1,4 @@
+from django.core.files.storage import FileSystemStorage
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
 import logging
@@ -5,6 +6,7 @@ from datetime import datetime
 from myapp_1.models import Client, Order
 from datetime import *
 from django.utils import timezone
+from .form_user import UserForm
 
 logger = logging.getLogger(__name__)
 
@@ -53,3 +55,28 @@ def client_order_date(request):
     orders366 = Order.objects.filter(date_added_order__lte=temp_orders366)
     return render(request, 'myapp_1/all_orders_client.html',
                   {'orders': orders, 'orders7': orders7, 'orders30': orders30, 'orders366': orders366})
+
+
+def user_form(request):
+    message = ''
+    if request.method == 'POST':
+        form = UserForm(request.POST, request.FILES)
+        if form.is_valid():
+            name = form.cleaned_data['name']
+            email = form.cleaned_data['email']
+            telephone = form.cleaned_data['telephone']
+            address = form.cleaned_data['telephone']
+            age = form.cleaned_data['age']
+            about_me = form.cleaned_data['about_me']
+            password = form.cleaned_data['password']
+            user_photo = form.cleaned_data['user_photo']
+            fs = FileSystemStorage()
+            client = Client(name=name, email=email, telephone=telephone, address=address, age=age, about_me=about_me,
+                            password=password, user_photo=fs.save(user_photo, user_photo))
+            client.save()
+            message = 'User save'
+    else:
+        form = UserForm()
+        message = 'Fill the form!'
+
+    return render(request, 'myapp_1/add_user.html', {'form': form, 'message': message})

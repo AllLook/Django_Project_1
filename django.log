@@ -1678,3 +1678,896 @@ Watching for file changes with StatReloader
 "GET /order_date/ HTTP/1.1" 200 16921
 Страница index вызвана 2023-09-03 03:58:48.078479
 "GET / HTTP/1.1" 200 2059
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-09 22:09:51.385437
+"GET / HTTP/1.1" 200 2059
+"GET /static/myapp_1/style.css HTTP/1.1" 200 572
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2798
+"GET /add_user HTTP/1.1" 301 0
+"GET /add_user/ HTTP/1.1" 200 3029
+"POST /add_user/ HTTP/1.1" 200 3161
+"POST /add_user/ HTTP/1.1" 200 3161
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-09 22:20:19.255463
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3029
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-09 22:21:52.739705
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3029
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-09 22:22:54.215181
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3029
+"POST /add_user/ HTTP/1.1" 200 3161
+"POST /add_user/ HTTP/1.1" 200 3162
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-09 22:45:54.583624
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3029
+"POST /add_user/ HTTP/1.1" 200 3161
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-09 22:51:06.345910
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3049
+"POST /add_user/ HTTP/1.1" 200 3181
+"POST /add_user/ HTTP/1.1" 200 3181
+"POST /add_user/ HTTP/1.1" 200 3428
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-09 23:05:22.346503
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3296
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 81, in user_form
+    return render(request, 'myapp_1/add_user.html', {'form': form, 'message': message})
+UnboundLocalError: local variable 'message' referenced before assignment
+"POST /add_user/ HTTP/1.1" 500 71968
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-09 23:07:05.733712
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3296
+"POST /add_user/ HTTP/1.1" 200 3427
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\form_user.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-09 23:13:00.517252
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3296
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-10 03:34:21.071601
+"GET / HTTP/1.1" 200 2059
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2798
+"GET /add_user/ HTTP/1.1" 200 3679
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-10 03:38:11.776642
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3387
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 81, in user_form
+    return render(request, 'myapp_1/add_user.html', {'form': form, 'message': message})
+UnboundLocalError: local variable 'message' referenced before assignment
+"POST /add_user/ HTTP/1.1" 500 72255
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-10 03:42:45.985292
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3387
+"POST /add_user/ HTTP/1.1" 200 3541
+"POST /add_user/ HTTP/1.1" 200 3541
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-10 04:25:17.390524
+"GET / HTTP/1.1" 200 2059
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-10 04:26:35.023929
+"GET / HTTP/1.1" 200 2059
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-10 04:45:13.016567
+"GET / HTTP/1.1" 200 2059
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2798
+"GET /add_user/ HTTP/1.1" 200 3387
+"POST /add_user/ HTTP/1.1" 200 3482
+"POST /add_user/ HTTP/1.1" 200 3500
+"POST /add_user/ HTTP/1.1" 200 3501
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 76, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+"POST /add_user/ HTTP/1.1" 500 137993
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-10 04:54:41.716525
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3416
+"POST /add_user/ HTTP/1.1" 200 3508
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-10 05:01:09.421742
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3416
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\models.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-10 05:04:31.910193
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3416
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-10 05:08:09.072486
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3416
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-10 05:12:02.154594
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3416
+"POST /add_user/ HTTP/1.1" 200 3510
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-10 06:33:55.462543
+"GET / HTTP/1.1" 200 2059
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2798
+"GET /add_user/ HTTP/1.1" 200 3407
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 75, in user_form
+    password=password, user_photo=fs.save(user_photo, user_photo))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\files\storage\base.py", line 32, in save
+    name = content.name
+AttributeError: 'NoneType' object has no attribute 'name'
+"POST /add_user/ HTTP/1.1" 500 79057
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-10 06:36:56.825616
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3407
+"POST /add_user/ HTTP/1.1" 200 3499
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 76, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+"POST /add_user/ HTTP/1.1" 500 138212
+"POST /add_user/ HTTP/1.1" 200 3499
+"POST /add_user/ HTTP/1.1" 200 3501
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-10 06:40:04.890202
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3407
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 76, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+- Broken pipe from ('127.0.0.1', 49855)
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 76, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+- Broken pipe from ('127.0.0.1', 49856)
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 76, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 76, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 76, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+- Broken pipe from ('127.0.0.1', 49871)
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 76, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+- Broken pipe from ('127.0.0.1', 49869)
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 76, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 76, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+- Broken pipe from ('127.0.0.1', 49866)
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 76, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+- Broken pipe from ('127.0.0.1', 49868)
+- Broken pipe from ('127.0.0.1', 49867)
+- Broken pipe from ('127.0.0.1', 49870)
+- Broken pipe from ('127.0.0.1', 49872)
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 76, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+"POST /add_user/ HTTP/1.1" 500 138514
+"POST /add_user/ HTTP/1.1" 200 3494
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 76, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+"POST /add_user/ HTTP/1.1" 500 138691
+"POST /add_user/ HTTP/1.1" 200 3494
+"POST /add_user/ HTTP/1.1" 200 3498
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-10 06:43:54.220600
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3407
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 75, in user_form
+    password=password, user_photo=fs.save(user_photo, user_photo))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\files\storage\base.py", line 32, in save
+    name = content.name
+AttributeError: 'NoneType' object has no attribute 'name'
+"POST /add_user/ HTTP/1.1" 500 79038
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-10 06:50:35.941408
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3407
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 75, in user_form
+    password=password, user_photo=fs.save(user_photo, user_photo))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\files\storage\base.py", line 32, in save
+    name = content.name
+AttributeError: 'NoneType' object has no attribute 'name'
+"POST /add_user/ HTTP/1.1" 500 79047
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-10 07:04:17.629080
+"GET / HTTP/1.1" 200 2059
+"GET /add_user/ HTTP/1.1" 200 3407
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 76, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 76, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+- Broken pipe from ('127.0.0.1', 50546)
+"POST /add_user/ HTTP/1.1" 500 139308
+"POST /add_user/ HTTP/1.1" 200 3496
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 75, in user_form
+    password=password, user_photo=fs.save(user_photo, user_photo))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\files\storage\base.py", line 32, in save
+    name = content.name
+AttributeError: 'NoneType' object has no attribute 'name'
+"POST /add_user/ HTTP/1.1" 500 79047
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 76, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+- Broken pipe from ('127.0.0.1', 50545)
