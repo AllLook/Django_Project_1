@@ -71,6 +71,11 @@ def user_form(request):
             password = form.cleaned_data['password']
             user_photo = form.cleaned_data['user_photo']
             fs = FileSystemStorage()
+            if user_photo:
+
+                user_photo = fs.save(user_photo.name, user_photo)
+            else:
+                user_photo = None
             client = Client(name=name, email=email, telephone=telephone, address=address, age=age, about_me=about_me,
                             password=password, user_photo=fs.save(user_photo, user_photo))
             client.save()
