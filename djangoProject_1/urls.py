@@ -20,5 +20,6 @@ from myapp_1.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('myapp_1.urls'))
+    path('', include('myapp_1.urls')),
+    # path('__debug__/', include('debug_toolbar.urls')),
 ]

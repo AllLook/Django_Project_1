@@ -3118,3 +3118,210 @@ django.db.utils.OperationalError: database is locked
 "POST /admin/myapp_1/order/2/change/?_changelist_filters=date_added_order__gte%3D2023-09-12%2B00%253A00%253A00%252B00%253A00%26date_added_order__lt%3D2023-09-13%2B00%253A00%253A00%252B00%253A00 HTTP/1.1" 302 0
 "GET /admin/myapp_1/order/?date_added_order__gte=2023-09-12+00%3A00%3A00%2B00%3A00&date_added_order__lt=2023-09-13+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 21372
 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-17 04:56:21.565899
+"GET / HTTP/1.1" 200 2059
+"GET /static/myapp_1/style.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2908
+Страница index вызвана 2023-09-17 04:56:26.086095
+"GET / HTTP/1.1" 200 2059
+Страница index вызвана 2023-09-17 04:56:26.717969
+"GET / HTTP/1.1" 200 2059
+Страница index вызвана 2023-09-17 04:56:26.947455
+"GET / HTTP/1.1" 200 2059
+Страница index вызвана 2023-09-17 04:56:27.205284
+"GET / HTTP/1.1" 200 2059
+Страница index вызвана 2023-09-17 04:56:27.539281
+"GET / HTTP/1.1" 200 2059
+Страница index вызвана 2023-09-17 04:56:27.759010
+"GET / HTTP/1.1" 200 2059
+Страница index вызвана 2023-09-17 04:56:27.968994
+"GET / HTTP/1.1" 200 2059
+Страница index вызвана 2023-09-17 04:56:28.162376
+"GET / HTTP/1.1" 200 2059
+Страница index вызвана 2023-09-17 04:56:28.372330
+"GET / HTTP/1.1" 200 2059
+Страница index вызвана 2023-09-17 04:56:28.820576
+"GET / HTTP/1.1" 200 2059
+Страница index вызвана 2023-09-17 04:56:29.031524
+"GET / HTTP/1.1" 200 2059
+Страница index вызвана 2023-09-17 04:56:29.477345
+"GET / HTTP/1.1" 200 2059
+Страница index вызвана 2023-09-17 04:56:30.169749
+"GET / HTTP/1.1" 200 2059
+Страница index вызвана 2023-09-17 04:56:30.374834
+"GET / HTTP/1.1" 200 2059
+Страница index вызвана 2023-09-17 04:56:30.584843
+"GET / HTTP/1.1" 200 2059
+Страница index вызвана 2023-09-17 04:56:30.800633
+"GET / HTTP/1.1" 200 2059
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-17 04:57:55.846525
+"GET / HTTP/1.1" 200 11845
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+"GET /add_user/ HTTP/1.1" 200 13212
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 80, in user_form
+    password=password, user_photo=fs.save(user_photo, user_photo))
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\files\storage\base.py", line 32, in save
+    name = content.name
+AttributeError: 'NoneType' object has no attribute 'name'
+"POST /add_user/ HTTP/1.1" 500 89718
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-17 05:02:14.114704
+"GET / HTTP/1.1" 200 12288
+"GET /add_user/ HTTP/1.1" 200 13655
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 81, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 252, in execute
+    return self._record(super().execute, sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 177, in _record
+    return method(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-17 05:04:57.058513
+"GET / HTTP/1.1" 200 12288
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /add_user/ HTTP/1.1" 200 13655
+Internal Server Error: /add_user/
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\myapp_1\views.py", line 81, in user_form
+    client.save()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Lex\Desktop\djangoProject1_1\venv\lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+"POST /add_user/ HTTP/1.1" 500 149672
+Watching for file changes with StatReloader
+Страница index вызвана 2023-09-17 05:06:15.265168
+"GET / HTTP/1.1" 200 12288
+"GET /add_user/ HTTP/1.1" 200 13655
+"POST /add_user/ HTTP/1.1" 200 13749
+"GET /__debug__/render_panel/?store_id=d85d172cc111481581661b611cd9cb6e&panel_id=StaticFilesPanel HTTP/1.1" 200 34020
+"GET /__debug__/render_panel/?store_id=d85d172cc111481581661b611cd9cb6e&panel_id=TemplatesPanel HTTP/1.1" 200 45070
+"GET /__debug__/render_panel/?store_id=d85d172cc111481581661b611cd9cb6e&panel_id=SignalsPanel HTTP/1.1" 200 2390
+"GET /add_user/ HTTP/1.1" 200 13655
+"GET /__debug__/render_panel/?store_id=3eb2736952364d2c8b7b35ffdef6d38a&panel_id=HeadersPanel HTTP/1.1" 200 5283
+"GET /__debug__/render_panel/?store_id=3eb2736952364d2c8b7b35ffdef6d38a&panel_id=SettingsPanel HTTP/1.1" 200 26475
+"GET /__debug__/render_panel/?store_id=3eb2736952364d2c8b7b35ffdef6d38a&panel_id=VersionsPanel HTTP/1.1" 200 760
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Lex\Desktop\djangoProject1_1\Django_Project_1\djangoProject_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
