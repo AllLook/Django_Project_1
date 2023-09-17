@@ -77,7 +77,7 @@ def user_form(request):
             else:
                 user_photo = None
             client = Client(name=name, email=email, telephone=telephone, address=address, age=age, about_me=about_me,
-                            password=password, user_photo=fs.save(user_photo, user_photo))
+                            password=password, user_photo=user_photo)
             client.save()
             message = 'User save'
     else:
